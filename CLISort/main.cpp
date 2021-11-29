@@ -2,6 +2,13 @@
 #include <cstdlib>
 #include "bubbleSort.h"
 
+
+#include "inc/mergeSort.h"
+
+#include "inc/heapSort.h"
+
+
+
 int main() 
 {
     BubbleSort bs;
@@ -15,6 +22,10 @@ int main()
         std::cout << numbers[i] << std::endl;
     }
 
+
+    mergeSort();
+
+    heapSort();
     bs.runBubbleSort(numbers);
 
     return 0;
