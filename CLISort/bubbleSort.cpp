@@ -1,37 +1,23 @@
-#include <iostream> 
+#include "BubbleSort.h" 
 
 //swap 
-void swap(int* xp, int* yp)
+void BubbleSort::swap(int* xp, int* yp)
 {
-    int temp = *xp;
-    *xp = *yp;
-    *yp = temp;
+    std::cout << "Swap" << std::endl;
 }
 
 //bubble sort
-void bubbleSort(int arr[], int n)
+void BubbleSort::bubbleSort(int arr[], int n)
 {
-    int i, j;
-    for (i = 0; i < n - 1; i++)
-
-        // Last i elements are already in place
-        for (j = 0; j < n - i - 1; j++)
-            if (arr[j] > arr[j + 1])
-                swap(&arr[j], &arr[j + 1]);
+    std::cout << "bubbleSort" << std::endl;
 }
 
-void printArray(int arr[], int size)
+void BubbleSort::printArray(int arr[], int size)
 {
-    int i;
-    for (i = 0; i < size; i++)
-        std::cout << arr[i] << " ";
-    std::cout << std::endl;
+    std::cout << "print array" << std::endl;
 }
 
-void runBubbleSort(int arr[100])
+void BubbleSort::runBubbleSort(int arr[100])
 {
-    int n = 100 / sizeof(arr[0]);
-    bubbleSort(arr, n);
-    std::cout << "Bubble sorted array: \n";
-    printArray(arr, n);
+    std::cout << "Run bubblesort" << std::endl;
 }

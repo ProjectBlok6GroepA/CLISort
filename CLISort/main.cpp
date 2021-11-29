@@ -1,8 +1,11 @@
 #include <iostream>
 #include <cstdlib>
-#include "bubbleSort.cpp"
+#include "bubbleSort.h"
 
-int main() {
+int main() 
+{
+    BubbleSort bs;
+
     int numbers[100];
 
     for (int i = 0; i < 100; i++) {
@@ -11,7 +14,8 @@ int main() {
     for (int i = 0; i < 100; i++) {
         std::cout << numbers[i] << std::endl;
     }
-    runBubbleSort(numbers);
+
+    bs.runBubbleSort(numbers);
 
     return 0;
 }
