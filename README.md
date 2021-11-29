@@ -8,8 +8,8 @@ This is a sorting algorithm project made for software engineering 2.
 
 Integrator - Tim Laheij
 
-Developers - Bram Scheepers
-             Maarten Dullemond
+Developers - Bram Scheepers,
+             Maarten Dullemond,
              Tim Laheij
              
 PR handler - Maarten Dullemond
