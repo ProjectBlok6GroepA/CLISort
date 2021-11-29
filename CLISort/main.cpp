@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdlib>
+#include "inc/heapSort.h"
 
 
 int main() {
@@ -11,6 +12,8 @@ int main() {
     for (int i = 0; i < 100; i++) {
         std::cout << numbers[i] << std::endl;
     }
+
+    heapSort();
 
     return 0;
 }
