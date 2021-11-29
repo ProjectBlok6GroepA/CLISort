@@ -47,3 +47,5 @@ CR handler - Bram Scheepers
 ## Release notes
 
 V1.1 random number generator added
+V1.2 Added all sorting algorithms
+V1.3 Added char sorting support
