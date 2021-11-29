@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 
-#include "mergeSort.h"
+#include "inc/mergeSort.h"
 
 #include "inc/heapSort.h"
 
