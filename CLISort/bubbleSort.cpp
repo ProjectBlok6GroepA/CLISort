@@ -4,6 +4,8 @@
 void BubbleSort::swap(int* xp, int* yp)
 {
     std::cout << "Swap" << std::endl;
+    std::cout << "Char array Swap" << std::endl;
+
 }
 
 //bubble sort
