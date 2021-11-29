@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bubbleSort.cpp" />
     <ClCompile Include="main.cpp" />
 
     <ClCompile Include="mergeSort.cpp" />
@@ -147,6 +148,9 @@
   <ItemGroup>
     <ClInclude Include="mergeSort.h" />
     <ClInclude Include="inc\heapSort.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BubbleSort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
