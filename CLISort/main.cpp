@@ -1,6 +1,11 @@
 #include <iostream>
 #include <cstdlib>
+
 #include "mergeSort.h"
+
+#include "inc/heapSort.h"
+
+
 
 int main() {
         int numbers[100];
@@ -12,7 +17,11 @@ int main() {
         std::cout << numbers[i] << std::endl;
     }
 
+
     mergeSort();
+
+    heapSort();
+
 
     return 0;
 }

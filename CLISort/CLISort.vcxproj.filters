@@ -16,14 +16,20 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+
     <ClCompile Include="mergeSort.cpp">
+    <ClCompile Include="src\heapSort.cpp">
+
+
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+
     <ClInclude Include="mergeSort.h">
+
+    <ClInclude Include="inc\heapSort.h">
+
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
