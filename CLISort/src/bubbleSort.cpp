@@ -1,4 +1,4 @@
-#include "BubbleSort.h" 
+#include "../inc/BubbleSort.h" 
 
 //swap 
 void BubbleSort::swap(int* xp, int* yp)

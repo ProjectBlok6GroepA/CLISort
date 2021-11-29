@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-#include "bubbleSort.h"
+#include "inc/BubbleSort.h"
 
 
 #include "inc/mergeSort.h"
