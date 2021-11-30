@@ -1,5 +1,7 @@
 # CLISort SWEN 2
 
+Test
+
 ## Info
 
 This is a sorting algorithm project made for software engineering 2.
