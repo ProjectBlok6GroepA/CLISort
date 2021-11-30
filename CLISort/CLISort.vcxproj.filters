@@ -15,8 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CLISort.cpp">
+    <ClCompile Include="main.cpp">
+
+    <ClCompile Include="mergeSort.cpp">
+    <ClCompile Include="src\heapSort.cpp">
+
+
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="bubbleSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BubbleSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+
+    <ClInclude Include="mergeSort.h">
+
+    <ClInclude Include="inc\heapSort.h">
+
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

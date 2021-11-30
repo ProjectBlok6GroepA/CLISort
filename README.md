@@ -1,5 +1,7 @@
 # CLISort SWEN 2
 
+Testjes
+
 ## Info
 test
 This is a sorting algorithm project made for software engineering 2.
@@ -8,8 +10,8 @@ This is a sorting algorithm project made for software engineering 2.
 
 Integrator - Tim Laheij
 
-Developers - Bram Scheepers
-             Maarten Dullemond
+Developers - Bram Scheepers,
+             Maarten Dullemond,
              Tim Laheij
              
 PR handler - Maarten Dullemond
@@ -47,3 +49,7 @@ CR handler - Bram Scheepers
 ## Release notes
 
 V1.1 random number generator added
+
+V1.2 Added all sorting algorithms
+
+V1.3 Added char sorting support
